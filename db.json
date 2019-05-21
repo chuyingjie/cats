@@ -1,0 +1,113 @@
+{
+    "cats": [],
+    "positions": [
+        {
+            "id": 1,
+            "name": "眼睛"
+        },
+        {
+            "id": 2,
+            "name": "耳朵"
+        },
+        {
+            "id": 3,
+            "name": "肚皮"
+        },
+        {
+            "id": 4,
+            "name": "嘴巴"
+        },
+        {
+            "id": 5,
+            "name": "尾巴"
+        },
+        {
+            "id": 6,
+            "name": "胡须"
+        },
+        {
+            "id": 7,
+            "name": "花纹"
+        }
+    ],
+    "genes": [
+        {
+            "id": 1,
+            "name": "闭目养神",
+            "rank": 0,
+            "position": 1
+        },
+        {
+            "id": 2,
+            "name": "嫣然娇羞",
+            "rank": 0,
+            "position": 6
+        },
+        {
+            "id": 3,
+            "name": "小可怜",
+            "rank": 1,
+            "formula": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 4,
+            "name": "八方招财",
+            "rank": 1,
+            "formula": []
+        }
+    ],
+    "effects": [
+        {
+            "id": 1,
+            "effect": "瞄准圈扩大15%",
+            "position": 1
+        },
+        {
+            "id": 2,
+            "effect": "挣脱几率降低15%",
+            "position": 3
+        },
+        {
+            "id": 3,
+            "effect": "12%几率获取符文数量+1",
+            "position": 7
+        },
+        {
+            "id": 4,
+            "effect": "5%几率获取云纹数量+40",
+            "position": 4
+        },
+        {
+            "id": 5,
+            "effect": "逃跑几率降低15%",
+            "position": 4
+        },
+        {
+            "id": 5,
+            "effect": "逃跑几率降低15%",
+            "position": 4
+        }
+    ],
+    "suit": [
+        {
+            "id": 1,
+            "name": "招财猫",
+            "special_gene": 4,
+            "formula": [
+                1,
+                2
+            ]
+        },
+        {
+            "id": 2,
+            "name": "以爱之名",
+            "formula": [
+                1,
+                2
+            ]
+        }
+    ]
+}
